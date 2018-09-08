@@ -6,19 +6,8 @@
   <name>SampleMavenProject</name>
   <build>
   	<plugins>
-  		<plugin>
-  		<artifactId>maven-war-plugin</artifactId>
-        <version>3.0.0</version>
-        <executions>
-          <execution>
-            <id>default-war</id>
-            <phase>package</phase>
-            <goals>
-              <goal>war</goal>
-            </goals>
-          </execution>
-        </executions>
-  		</plugin>
+  	
+
   		<plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
